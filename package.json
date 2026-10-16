@@ -1,0 +1,11 @@
+{
+  "name": "starcast-invoice-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "dev": "cd backend && npm run dev",
+    "start": "cd backend && npm start",
+    "init-db": "cd backend && npm run init-db"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "starcast-backend",
+  "version": "1.0.0",
+  "description": "Backend API untuk Starcast.id invoice generator diecast",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "init-db": "node src/migrate.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "morgan": "^1.10.0",
+    "zod": "^3.23.8"
+  }
+}

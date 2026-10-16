@@ -1,0 +1,8 @@
+name = "starcast-invoice-pages"
+pages_build_output_dir = "../frontend"
+compatibility_date = "2024-10-15"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "starcast-db"
+database_id = "1a24458f-d872-4ff1-a464-0c2d2d8b914d"

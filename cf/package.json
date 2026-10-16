@@ -1,0 +1,19 @@
+{
+  "name": "starcast-cloudflare",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:local": "wrangler d1 migrations apply starcast-db --local",
+    "db:remote": "wrangler d1 migrations apply starcast-db --remote"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "wrangler": "^3.90.0"
+  }
+}
